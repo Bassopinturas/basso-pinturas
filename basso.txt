@@ -1,0 +1,33 @@
+import zipfile
+
+# Conteúdo básico do site
+arquivos = {
+    "index.html": """<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basso Pinturas</title>
+</head>
+<body>
+  <h1>Basso Pinturas</h1>
+  <p>Site exemplo otimizado.</p>
+</body>
+</html>""",
+    "obra1.jpg": b"",  # arquivos de imagem e vídeo podem estar vazios ou placeholders
+    "obra2.jpg": b"",
+    "obra3.jpg": b"",
+    "obra4.jpg": b"",
+    "obra5.jpg": b"",
+    "obra6.jpg": b"",
+    "hero1.jpg": b"",
+    "video.mp4": b"",
+    "favicon.ico": b""
+}
+
+# Cria o arquivo ZIP
+with zipfile.ZipFile("basso-pinturas-site.zip", "w") as zipf:
+    for nome, conteudo in arquivos.items():
+        zipf.writestr(nome, conteudo)
+
+print("Arquivo 'basso-pinturas-site.zip' criado com sucesso!")
