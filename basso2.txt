@@ -1,0 +1,48 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Bassopinturas/basso-pinturas/main/hero1.jpg" alt="Basso Pinturas" width="100%" />
+</p>
+
+<h1 align="center">🎨 Basso Pinturas</h1>
+
+<p align="center">
+  <strong>Reformas e pintura de fachadas em Erechim e região.</strong><br />
+  Site institucional desenvolvido com HTML, CSS e GitHub Pages.
+</p>
+
+<p align="center">
+  <a href="https://bassopinturas.github.io/basso-pinturas" target="_blank">
+    🔗 Acessar site online
+  </a> • 
+  <a href="https://wa.me/555499205333" target="_blank">💬 WhatsApp</a> • 
+  <a href="https://instagram.com/basso.pinturas" target="_blank">📷 Instagram</a>
+</p>
+
+---
+
+## 📌 Sobre
+
+Com mais de **15 anos de experiência**, a **Basso Pinturas** oferece serviços profissionais de:
+
+- Pintura predial, residencial e industrial
+- Recuperação e revitalização de fachadas
+- Impermeabilização de estruturas
+- Serviços em altura com segurança
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- HTML5
+- CSS3 (design responsivo)
+- [Google Fonts - Inter](https://fonts.google.com/specimen/Inter)
+- [AOS.js](https://michalsnik.github.io/aos/) (animações ao rolar)
+- GitHub Pages (hospedagem gratuita)
+
+---
+
+## 🚀 Como usar localmente
+
+```bash
+git clone https://github.com/Bassopinturas/basso-pinturas.git
+cd basso-pinturas
+# Abra o arquivo index.html em seu navegador
